@@ -1,0 +1,149 @@
+.todo-list-bg-container {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #2b8aaa;
+  color: white;
+  width: 100%;
+  height: 15vh;
+  padding: 20px;
+  text-align: left;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    flex-direction: row;
+    padding-right: 0px;
+    border: 2px solid #c2c2c2;
+    height: 100vh;
+  }
+}
+
+.app-input-container {
+  height: 50vh;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-input-container {
+    border-right: 3px solid #c2c2c2;
+    height: 100vh;
+  }
+}
+
+.input-container {
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.user-input {
+  height: 40px;
+  width: 100%;
+  border: 2px solid #bebebe;
+  background-color: transparent;
+  padding: 15px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.add-button {
+  background-color: #2b8aaa;
+  color: white;
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  border-width: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.result-container {
+  width: 90%;
+  max-width: 500px;
+  margin-top: 20px;
+  height: 80%;
+}
+.task-list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .task-list-container {
+    height: 80vh;
+  }
+}
+
+.no-tasks {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #707070;
+  margin-top: 50px;
+}
+
+.completed-task-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .completed-task-container {
+    margin-left: 20px;
+    height: 100vh;
+  }
+}
+
+.completed-header-container {
+  display: flex;
+  align-items: center;
+}
+.completed-heading {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.completed-task-list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+  overflow: auto;
+  height: 80vh;
+}
+.expand {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

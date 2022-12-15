@@ -1,0 +1,68 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 8px solid #34baeb;
+  border-top: 1px solid #34baeb;
+  border-right: 1px solid #34baeb;
+  border-bottom: 1px solid #34baeb;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  height: 50px;
+}
+.updated-status {
+  color: #aaafb4;
+  padding: 10px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: bold;
+}
+.task-name {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  color: black;
+  text-align: left;
+}
+.status {
+  background-color: lightskyblue;
+  border-width: 0;
+  border-radius: 5px;
+  height: 40px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.delete {
+  height: 40px;
+  width: 40px;
+  font-size: 16px;
+  font-weight: bolder;
+  border-width: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+.completed {
+  border-left: 8px solid Green;
+  border-top: 1px solid Green;
+  border-right: 1px solid Green;
+  border-bottom: 1px solid Green;
+  display: flex;
+  align-items: center;
+}
+
+.completed-button {
+  background-color: Green;
+  color: white;
+}
+
+.buttons-container {
+  display: flex;
+  flex-grow: 0;
+}
